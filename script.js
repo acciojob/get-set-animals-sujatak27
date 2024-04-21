@@ -1,6 +1,6 @@
 class Animal
 	{
-  constructor(species : string)
+  constructor(species)
 		{this._species = species;}
 
   get species()
@@ -8,7 +8,7 @@ class Animal
 
   makeSound()
 		{//console.log("Animal sound");
-		console.log (`The ${this.animal} makes a soun`)}
+		console.log (`The ${this._species} makes a sound`);}
 	}
 
 
